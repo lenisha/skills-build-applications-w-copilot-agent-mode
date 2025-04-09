@@ -4,7 +4,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, LeaderboardSerializer, WorkoutSerializer
 
 def api_root(request):
-    codespace_url = request.get_host()  # Dynamically fetch the host
+    codespace_url = "glowing-fiesta-jgpx5qp5qj3qjj7-8000.app.github.dev"  # Replace with actual codespace name
     return JsonResponse({
         "message": "Welcome to the Octofit API!",
         "codespace_url": f"https://{codespace_url}",
