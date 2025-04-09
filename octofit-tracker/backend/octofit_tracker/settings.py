@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-2th2)1u!pg6q@@z+ec_woy-6151pj9%wu@$gniewmlo2^bu)95
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["glowing-fiesta-jgpx5qp5qj3qjj7.app.github.dev", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["glowing-fiesta-jgpx5qp5qj3qjj7-8000.app.github.dev", "localhost", "127.0.0.1"]
 
 
 # Application definition
