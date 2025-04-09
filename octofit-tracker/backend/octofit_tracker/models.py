@@ -1,6 +1,7 @@
 from djongo import models
 
 class User(models.Model):
+    id = models.ObjectIdField(primary_key=True)  # Explicitly define ObjectIdField for compatibility with djongo
     email = models.EmailField(unique=True)
     name = models.CharField(max_length=255)
     age = models.IntegerField()
